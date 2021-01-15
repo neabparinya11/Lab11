@@ -32,8 +32,6 @@ int main(){
 }
 template <class T>
 void mySwap(T &x,T &y){
-	T A=x;
-	x=y;
-	y=A;
+	swap(x,y);
 
 }
