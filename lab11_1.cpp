@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-int fibonacci(int);
+long long int fibonacci(int);
 int main(){
     cout << fibonacci(50);
     return 0; 
 }
-int fibonacci(int num){
+long long int fibonacci(int num){
 	if(num==0)return 0;
 	else if(num==1)return 1;
 	else{
